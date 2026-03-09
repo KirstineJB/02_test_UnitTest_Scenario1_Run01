@@ -18,7 +18,7 @@ public class UtilityService
             // volume discount
             if (orderAmount > 1000)
             {
-                discount += 0.03m;
+                discount += 0.04m;
             }
 
             // weekend campaign
