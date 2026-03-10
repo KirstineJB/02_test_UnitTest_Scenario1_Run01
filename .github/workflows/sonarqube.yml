@@ -43,7 +43,7 @@ jobs:
         shell: powershell
         run: |
           ${{ runner.temp }}\scanner\dotnet-sonarscanner begin `
-            /k:"KirstineJB_02_test_UnitTest" `
+            /k:"02_test_UnitTest_Scenario1_Run01" `
             /o:"kirstine13" `
             /d:sonar.token="${{ secrets.SONAR_TOKEN }}" `
             /d:sonar.cs.vstest.reportsPaths="**/*.trx" `
